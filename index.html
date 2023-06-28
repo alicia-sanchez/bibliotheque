@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Bibliothèque</title>
+</head>
+<body>
+    <h2>Recherchez vos livres !</h2>
+    <div class="container" id="container">
+        <div class="form-container left-container">
+            <form id="form"  action="#">
+                <h1>Bibliothèque <br> en ligne</h1>
+          
+                <span>En espérant trouver le votre</span>
+                <input id="title"  type="text" placeholder="Titre du livre" />
+                <input id="author"  type="text" placeholder="Auteur(s) du livre" />
+                <input id="image"  type="text" placeholder="URL du livre" />
+                
+                <button>Rechercher</button>
+            </form>
+        </div>
+        <div class="right-container">
+            <div class="right">
+                <div class="right-panel right-right">
+                    <h1>Historique de recherche</h1>
+                    <div id="book"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
